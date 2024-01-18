@@ -4,6 +4,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 const SearchBar = ({term, onTermChange, onTermSubmit}) => {
     
+    
     return (
         <View style={styles.backgroundStyle}>
             <AntDesign name="search1" 
@@ -29,10 +30,11 @@ const styles = StyleSheet.create({
     backgroundStyle:{
         backgroundColor: '#F0EEEE',
         height: 50,
-        borderRadius: 5,
+        borderRadius: 6,
         marginHorizontal: 15,
         paddingHorizontal: 15,
         marginTop: 15,
+        marginBottom: 15,
         flexDirection: 'row',
         alignItems: 'center'
     },
